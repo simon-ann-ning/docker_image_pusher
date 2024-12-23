@@ -1,4 +1,9 @@
 --platform=linux/arm64 hello-world
+--platform=linux/arm64 ghcr.io/immich-app/immich-server:release
+--platform=linux/arm64 docker.io/redis:6.2-alpine@sha256:eaba718fecd1196d88533de7ba49bf903ad33664a92debb24660a922ecd9cac8
+--platform=linux/arm64 docker.io/tensorchord/pgvecto-rs:pg14-v0.2.0@sha256:90724186f0a3517cf6914295b5ab410db9ce23190a2d9d0b9dd6463e3fa298f0
+--platform=linux/arm64 ghcr.io/immich-app/immich-machine-learning:release
+
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
